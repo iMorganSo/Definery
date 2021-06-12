@@ -1,6 +1,8 @@
-# Definer
+# About
 
 define your functions with simple codes
+
+# Usage
 
 ```js
 const define = function() {};
@@ -15,4 +17,16 @@ var definer = new define(
 )
 
 var definer = function() {};
+```
+
+# Installation
+```
+npm i definery
+```
+
+# How To Define
+```js
+definer(
+    console.log("Hello World!")
+)
 ```
