@@ -1,4 +1,3 @@
-# Definition-of-functions
-Functions with Definition
+# Definer
 
 define your functions with simple codes
