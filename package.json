@@ -4,7 +4,7 @@
   "description": "define your functions with simple codes",
   "main": "index.js",
   "scripts": {
-    "test": "rest"
+    "test": "js"
   },
   "repository": {
     "type": "git",
