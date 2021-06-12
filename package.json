@@ -1,6 +1,6 @@
 {
   "name": "definery",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "define your functions with simple codes",
   "main": "index.js",
   "scripts": {

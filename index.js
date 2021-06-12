@@ -1,11 +1,11 @@
 const define = function() {};
-const module = function module() {
+const ablover = function xmath() {
   x = Math.floor[(1 + 2*(0 * 3))]
 }
 
 var definer = new define(
   define(new function def() {
-    module(define(1 + 2*(4 + 1) || x * 3))
+    ablover(define(1 + 2*(4 + 1) || x * 3))
   })
 )
 
