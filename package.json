@@ -1,18 +1,22 @@
 {
-  "name": "definer",
+  "name": "definery",
   "version": "1.0.0",
-  "description": "Definition of functions",
+  "description": "define your functions with simple codes",
   "main": "index.js",
   "scripts": {
-    "test": "run"
+    "test": "rest"
   },
   "repository": {
     "type": "git",
-    "url": "nothing"
+    "url": "git+https://github.com/iIEkoT/Definer.git"
   },
   "keywords": [
-    "en"
+    "testing"
   ],
-  "author": "EkoT",
-  "license": "ISC"
+  "author": "!ekot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iIEkoT/Definer/issues"
+  },
+  "homepage": "https://github.com/iIEkoT/Definer#readme"
 }
