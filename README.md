@@ -1,4 +1,4 @@
 # Definition-of-functions
 Functions with Definition
 
-Definition your functions with JavaScript files 
+define your functions with simple codes
