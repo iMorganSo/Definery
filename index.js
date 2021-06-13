@@ -13,3 +13,7 @@ var definer = new define(
     )
   }
   get(definer = function() {})
+
+  definer(
+    console.log("connected with the definer")
+  )

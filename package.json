@@ -1,17 +1,17 @@
 {
   "name": "definery",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "define your functions with simple codes",
   "main": "index.js",
   "scripts": {
-    "test": "js"
+    "test": "definer"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iIEkoT/Definer.git"
   },
   "keywords": [
-    "testing"
+    "js", "Definer"
   ],
   "author": "!ekot",
   "license": "ISC",
