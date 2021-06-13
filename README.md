@@ -1,21 +1,34 @@
 # About
 
-define your functions with simple codes
-
-# Usage
-
-```js
-const definer = require("definery")
-```
+Define your functions with simple codes
 
 # Installation
 ```
 npm i definery
 ```
 
-# How To Define
+# Usage
 ```js
-definer(
-    console.log("Hello World!")
-)
+const Definery = require("definery");
+const define = function() {};
+
+var definer = new define(
+  define(new function def() {
+    if(define === undefined){
+      define === "cannot to define this function"
+    }
+  })
+);
+
+  function get() {
+    define(
+      definer
+    )
+  };
+
+  get(definer = function() {});
+  
+  definer(
+      console.log("Hello World!")
+  );
 ```
