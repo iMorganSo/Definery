@@ -1,0 +1,24 @@
+{
+  "name": "definery",
+  "version": "2.0.0",
+  "description": "define you function with simple definer",
+  "main": "index.js",
+  "scripts": {
+    "test": "/Definery"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iIEkoT/Definer.git"
+  },
+  "keywords": [
+    "definer",
+    "js",
+    "node.js"
+  ],
+  "author": "!ekot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iIEkoT/Definer/issues"
+  },
+  "homepage": "https://github.com/iIEkoT/Definer#readme"
+}

@@ -1,19 +1,17 @@
-const define = function() {};
-
-var definer = new define(
-  define(new function def() {
-    if(define === undefined){
-      define === "cannot to define this function"
+Definery = class{
+  constructor(definer) {
+    this.definer = function() {
+      this.definer = function() {};
     }
-  })
-)
-  function get() {
-    define(
-      definer
-    )
   }
-  get(definer = function() {})
+}
 
-  definer(
-    console.log("connected with the definer")
-  )
+Definery.definer = function() {
+  Definery.definer = this.definer
+}
+
+definer = function() {
+  definer = Definery.definer
+}
+
+definer(console.log("connected with the definer"))
