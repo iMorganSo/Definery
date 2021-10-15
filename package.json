@@ -1,7 +1,7 @@
 {
   "name": "definery",
-  "version": "2.0.0",
-  "description": "define you function with simple definer",
+  "version": "4.0.2",
+  "description": "Define you javascript/node.js functions with definery!",
   "main": "index.js",
   "scripts": {
     "test": "/Definery"
@@ -11,9 +11,9 @@
     "url": "git+https://github.com/iIEkoT/Definer.git"
   },
   "keywords": [
-    "definer",
-    "js",
-    "node.js"
+    "Definer",
+    "node.js",
+    "improver"
   ],
   "author": "!ekot",
   "license": "ISC",

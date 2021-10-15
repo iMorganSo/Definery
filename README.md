@@ -1,18 +1,49 @@
-# About
+# Why Definery?
 
-Define your functions with simple definer
+Definery is a simple package to define your node js functions and improve your codes.
 
 # Installation
+
 ```
 npm i definery
 ```
+NOTE: Yarn manager is not supported yet.
+
+
+
+# Required
+
+node.js ^16 or higher.
 
 # Usage
+
 ```js
 const Definery = require("definery");
-const definer = new Definery.definer();
 
-definer(console.send = console.log);
+Definery.definer(console.log("Hello world!"));
+```
 
-definer(console.send("hello world!"));
+# Another usage
+
+```js
+const Definery = require("definery");
+
+function definer() {
+    this.definer = Definery.definer();
+};
+
+definer(console.log("Hello world!"));
+```
+
+# node-fetch Example
+
+```js
+const Definery = require("definery");
+const fetch = require("node-fetch");
+
+fetch("some function", Definery.definer("function")).then("function").catch(err => {
+    console.log(err);
+    Definery.definer(err);
+})
+
 ```
