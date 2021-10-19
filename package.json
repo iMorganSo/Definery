@@ -1,6 +1,6 @@
 {
   "name": "definery",
-  "version": "4.0.2",
+  "version": "4.0.7",
   "description": "Define you javascript/node.js functions with definery!",
   "main": "index.js",
   "scripts": {

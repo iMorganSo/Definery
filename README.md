@@ -13,7 +13,10 @@ NOTE: Yarn manager is not supported yet.
 
 # Required
 
-node.js ^16 or higher.
+node.js @16 or higher,
+some functions from your own create,
+optional: [You can use some API for your own use],
+
 
 # Usage
 
@@ -28,9 +31,7 @@ Definery.definer(console.log("Hello world!"));
 ```js
 const Definery = require("definery");
 
-function definer() {
-    this.definer = Definery.definer();
-};
+definer = Definery.definer;
 
 definer(console.log("Hello world!"));
 ```
