@@ -36,15 +36,28 @@ definer = Definery.definer;
 definer(console.log("Hello world!"));
 ```
 
-# node-fetch Example
+# Returned JSON value
 
-```js
-const Definery = require("definery");
-const fetch = require("node-fetch");
-
-fetch("some function", Definery.definer("function")).then("function").catch(err => {
-    console.log(err);
-    Definery.definer(err);
-})
-
+```json
+{
+    "function" {
+        "name": "Your function name will displays over here in our API JSON file",
+        "usedDefiner": "true",
+        "usedGetFunction": "null",
+        "functionType": "Your function name will displays over here in our API JSON file",
+        "string": "null",
+        "number": "null",
+        "function": "null",
+        "asyncFunction": "null",
+        "NoAsyncOrFunction": "null",
+        "array": "null",
+        "args": "instead of 1(minimum) to Infinity args value[Args will displays in this array]"
+    }
+}
 ```
+
+# Helpful info
+
+You can't get the info of returned JSON value, and the only one way to get them is to use some exporter to get them as console primare value content or JSON value type.
+
+Required Node js version is v16.6.0 or higher

@@ -1,7 +1,7 @@
 {
   "name": "definery",
-  "version": "4.0.7",
-  "description": "Define you javascript/node.js functions with definery!",
+  "version": "5.0.7",
+  "description": "Define your javascript/node.js functions with definery!",
   "main": "index.js",
   "scripts": {
     "test": "/Definery"
